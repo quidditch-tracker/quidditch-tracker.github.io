@@ -1,40 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/favicons/manifest.json">
-  <link rel="shortcut icon" href="/favicons/favicon.ico">
-  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <style>
-    h1 {
-      text-align:center;
-      color: #d8dcd6;
-      font-size: 3em;
-    }
-    div {
-      margin: auto;
-      text-align: center;
-    }
-    iframe {
-      height: 4in;
-      width: 6.2in;
-      margin: auto auto;
-      text-align: center;
-    }
-    body {
-      background-color: #85a3b2;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  <!-- Favicon Specs -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicons/S21_botf/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicons/S21_botf/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicons/S21_botf/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicons/S21_botf/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="favicons/S21_botf/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicons/S21_botf/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="favicons/S21_botf/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicons/S21_botf/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="favicons/S21_botf/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="favicons/S21_botf/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="favicons/S21_botf/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="favicons/S21_botf/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="favicons/S21_botf/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="favicons/S21_botf/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="favicons/S21_botf/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="favicons/S21_botf/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="favicons/S21_botf/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="favicons/S21_botf/mstile-310x310.png" />
+
 </head>
-  <h1>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hogwarts Running Club Racery Data
-  </h1>
-  <body>
-    <div style="margin: auto;padding: 10px;">
-      <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+
+<body>
+  <div class="hero-image">
+    <div class="hero-text">
+    <h1>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Muppet Labs!
+    </h1>
+  </div>
+  </div>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Team Stats')">Team Stats</button>
+      <button class="tablinks" onclick="openTab(event, 'Individual Stats')">Individual Stats</button>
+      <button class="tablinks" onclick="openTab(event, 'Point totals')">Point totals</button>
+      <button class="tablinks" onclick="openTab(event, 'Grudge Match')">Grudge Match</button>
+      <button class="tablinks" onclick="openTab(event, 'We Got Cows')">We've Got Cows</button>
+      <button class="tablinks" onclick="openTab(event, 'Proclaimer')">Proclaimer</button>
+      <button class="tablinks" onclick="openTab(event, 'Jack Bauer')">Jack Bauer</button>
+      <!-- <button class="tablinks" onclick="openTab(event, 'Raw Numbers')">Raw Numbers</button> -->
     </div>
+
+    <div id="Team Stats" class="tabcontent">
+      <h3>Team Stats</h3>
+      <h4>Daily Mileage</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Daily Mileage Per Person</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Total Mileage</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Total Mileage Per Person</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Average Daily Mileage Per Person</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Daily Ranking</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Overall Ranking</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+
+      <h4>Difference</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+    
+    <div id="Individual Stats" class="tabcontent">
+      <h3>Individual Stats</h3>
+      <p>Table containing Daily Miles, Total Miles, Average MPP</p> 
+    </div>
+    
+    <div id="Point totals" class="tabcontent">
+      <h3>Point totals</h3>
+      <h4>Point Totals Over Time</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+    
+    <div id="Grudge Match" class="tabcontent">
+      <h3>Grudge Match Challenge</h3>
+      <p>Totals graph up to 1600 with only 2 competitors</p>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+
+    <div id="We Got Cows" class="tabcontent">
+      <h3>We've Got Cows Challenge</h3>
+      <h4>Place Ranking -> Points</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+    
+    <div id="Proclaimer" class="tabcontent">
+      <h3>Proclaimer Challenge</h3>
+      <h4>Floor(Miles / 1000)</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+
+    <div id="Jack Bauer" class="tabcontent">
+      <h3>Jack Bauer Challenge</h3>
+      <h4>Only June 18-19, highlight 6 top scoring teams</h4>
+      <div style="margin: auto;padding: 10px;">
+        <img src="https://www.dropbox.com/s/1tzzdpg2zebxjyj/plot.png?raw=1" >
+      </div>
+    </div>
+
+    <div id="Raw Numbers" class="tabcontent">
+      <h3>Raw Numbers</h3>
+      <p>Charts that I can snapshot for facebook</p>
+    </div>
+
+    <script>
+      function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
+
+      
+    <p>Footer!</p>
     </body>
   </html>
